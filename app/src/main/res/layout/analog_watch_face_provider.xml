@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin" android:background="@drawable/bg">
+    <AnalogClock
+        android:id="@+id/analog_appwidget_clock4"
+        android:layout_width="136px"
+        android:layout_height="136px"
+        android:dial="@drawable/dial"
+        android:hand_hour="@drawable/hour_hand"
+        android:hand_minute="@drawable/minute_hand"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px" />
+</RelativeLayout>
